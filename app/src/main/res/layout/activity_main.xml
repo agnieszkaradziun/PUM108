@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.agnieszka.laboratoriumpum2.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Zabrze"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        android:id="@+id/miasto"
+        />
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="99dp"
+        android:src="@drawable/ic_wb_sunny_black_24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="30 stopni celcjusza"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:id="@+id/temp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pamiętaj o filtrze"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:id="@+id/komentarz"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Podaj miejsce"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+
+
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tekst"/>
+
+
+    <Button
+        android:id="@+id/zmien"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="zmień miejsce"
+        android:textColor="@android:color/holo_blue_light"
+
+
+
+        />
+
+
+    <Button
+        android:id="@+id/pokaz"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="Pokaż liste dostępnych miejsc"
+        android:textColor="@android:color/holo_blue_light"
+
+
+
+
+
+        />
+
+
+</LinearLayout>
